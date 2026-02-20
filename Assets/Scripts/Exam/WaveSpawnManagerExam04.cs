@@ -33,6 +33,7 @@ public class WaveSpawnManagerExam04 : MonoBehaviour
             {
                 waveController.StartWave(waveConfigurations[currentWave]);
                 waveEndTime = Time.time + waveConfigurations[currentWave].waveInterval;
+                
             }
         }
     }
